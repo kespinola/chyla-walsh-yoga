@@ -1,0 +1,332 @@
+/*
+Enter Here your Custom CSS Style!!
+*/
+
+/*Helper classes*/
+
+h2{
+	font-weight: 100;
+    font-size:2.5em;
+    text-transform:uppercase;
+}
+p{
+    font-size:18px;
+}
+.center{
+	margin-right: auto;
+	margin-left: auto; 
+}
+#slidecaption{
+    position:fixed;
+    top:45px;
+    left:45px;
+    width:550px;
+}
+
+
+a:hover{
+    color:#d68ddf;
+}
+.services-box .icon span{
+	line-height: 105px;
+}
+.services-box .icon{
+	width: 100px;
+	height: 100px;
+}
+.well{
+	background-color: rgba(249,249,249,.8);
+	-moz-box-shadow:    inset .5px #000000;
+   -webkit-box-shadow: inset .5px #000000;
+   box-shadow:         inset .5px #000000;
+   border-radius: 4px;
+   border: 2px solid #D3A7E2;
+   transition: all .2s ease-in-out;
+   -moz-transition: all .2s ease-in-out;
+   -webkit-transition: all .2s ease-in-out;
+   -o-transition: all .2s ease-in-out;
+}
+.well .img-border{
+	border: 4px solid #D3A7E2;
+}
+
+.well blockquote{
+	border-left: 4px solid #D3A7E2;
+	border-color:#D3A7E2;
+}
+
+#logo img{
+	border:1px solid #424242;
+	position: relative;
+	width: 50px;
+	height: 50px;
+	bottom: 10px;
+}
+
+header #logo a{
+	display: inline-block;
+	position: relative;
+	bottom: 7px;
+}
+.btn{
+	width: 300px !important;
+	height: 50px;
+	background-color: #D3A7E2;
+	box-shadow: none;
+	background-image: none;
+	transition: all .03s ease-in-out;
+}
+.btn:hover{
+	background-color: #E5BFF1;
+}
+.btn a{
+	color: #f9f9f9;
+	box-shadow: none;
+	font-size: 20px;
+	font-weight: 500;
+	text-shadow: none;
+}
+
+
+
+/*Class Info stylings*/
+.class-info{
+	background-color: #f9f9f9;
+	padding-left: 10%;
+}
+.class-info h5{
+	font-weight: 500;
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+.class-info .fa-calendar{
+	font-size: 32px;
+	position: relative;
+	top: 12px;
+	right: 17px;
+	margin-bottom: 15px;
+
+}
+.schedule{
+	margin-left: 0px;
+}
+.fancybox-close:hover{
+	background-color: #D3A7E2;
+};
+.fancybox-nav:hover .fancybox-nav span{
+	background-color: #D3A7E2;
+}
+
+#schedule-banner{
+	background: url('../img/chyla-red-backdrop.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 95px;
+	margin: 0px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+
+}
+#social-area{
+    padding-bottom:0;
+}
+#schedule .table{
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	background-color: #fff;
+}
+#schedule thead{
+	background-color: #4B4B4B;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	color: #f9f9f9;
+	font-size: 20px;
+}
+
+#schedule tbody tr:hover{
+	background-color: #ECD7FD;
+}
+
+/*Stylings for Social Media Section*/
+
+#social{
+    margin-bottom:15px;
+}
+#social span{
+    position:relative;
+    margin-bottom:5px;
+	font-size: 1.75em;
+
+}
+
+
+#social ul li a{
+	width:200px;
+	height: 200px;
+}
+
+#social ul li a span{
+	font-size: 90px;
+	line-height: 200px;
+
+}
+#social-area{
+	background: #fff;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+#social-area blockquote p {
+margin-bottom: 10px;
+font-size: 1em;
+line-height: 31px;
+transition: .3s all ease-in-out;
+    text-align:left;
+}
+
+/*Class Type Section*/
+
+#class-type h2{
+    text-align:center;
+    color:#f9f9f9;
+}
+
+#class-type .icon:hover{
+	transform: rotateY(0deg);
+	-webkit-transform: rotateY(0deg);
+}
+
+#class-type .well:hover{
+	background-color: rgba(254,240,255,.9);
+}
+
+#class-type{
+	overflow: hidden;
+	padding-bottom: 0px;
+	background: #424242;
+
+}
+
+#music{
+    background-image:url(../img/music-background.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+#music{
+    color:#fff;
+}
+#music p{
+    font-size:25px;
+    margin-bottom:15px;
+
+}
+
+#music h2{
+    font-size: 42px;
+    color:inherit;
+}
+.big-quote .carousel-indicators{
+    top:-20px;
+}
+.big-quote .carousel-control{
+    top:150px;
+}
+
+#About{
+    padding-bottom:30px;
+}
+
+.big-quote p{
+    height:125px;
+}
+.table-hover tbody tr:hover>td, .table-hover tbody tr:hover>th{
+    background-color:#ECD7FD;
+}
+
+/*Services Stylings*/
+
+#services p{
+    margin-bottom:15px;
+}
+
+#services h2{
+    text-align:center;
+}
+
+#company-logos{
+    width:100%;
+    display:inline-block;
+    text-align:center;
+}
+#company-logos img{
+    height:35px;
+}
+#company-logos a{
+    transition: all .2s ease-in;
+    -moz-transistion: all .2s ease-in;
+    --webkit-transistion: all .2s ease-in;
+    -o-transistion: all .2s ease-in;
+}
+#company-logos a:hover{
+    opacity:.7;
+}
+
+#company-logos hr{
+    border-style:solid;
+    border:1px solid #eee;
+    width:75%;
+    margin:0 auto;
+
+}
+
+#company-logos #logo-1{
+    margin-left:20%;
+    margin-top:20px;
+}
+#company-logos h4{text-transform:uppercase}
+/*Media Queries*/
+
+
+@media screen and (min-width:769px){
+    #class-type{
+        background: url('../img/chyla-beach-background.jpg') no-repeat center center;
+        background-size: 100% 100%;
+
+    }
+    #class-type h2{
+        color:#757575;
+    }
+    #schedule-banner{
+        height: 205px;
+    }
+    #class-type .shift-right-desktop{
+        margin-left:18%;
+
+    }
+}
+
+@media screen and (min-width:1000px){
+    #schedule-banner{
+        height: 295px;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+	#schedule th{
+		font-size: 13px;
+	}
+	#schedule tbody{
+		font-size: 12px;
+	}
+
+}
+
+
+
+
+
