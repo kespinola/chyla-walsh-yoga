@@ -77,9 +77,9 @@ CHAKRA.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : '_include/img/slider-images/image02.jpg', title : '<div class="slide-content">Chyla Walsh Yoga</div>', thumb : '', url : ''},
-											{image : '_include/img/slider-images/image01.jpg', title : '<div class="slide-content">Chyla Walsh Yoga</div>', thumb : '', url : ''},
-											{image : '_include/img/slider-images/image04.jpg', title : '<div class="slide-content">Chyla Walsh Yoga</div>', thumb : '', url : ''},
+											{image : '_include/img/slider-images/image02.jpg', title : '<div class="slide-content hidden-phone hidden-tablet">Chyla Walsh Yoga</div>', thumb : '', url : ''},
+											{image : '_include/img/slider-images/image01.jpg', title : '<div class="slide-content hidden-phone hidden-tablet">Chyla Walsh Yoga</div>', thumb : '', url : ''},
+											{image : '_include/img/slider-images/image04.jpg', title : '<div class="slide-content hidden-phone hidden-tablet">Chyla Walsh Yoga</div>', thumb : '', url : ''},
 					
 									],
 									
@@ -525,7 +525,6 @@ $(document).ready(function(){
 
 	$('.services-box').hover(function(){
 	$('span', this).toggleClass('animated pulse');
-	console.log("work please")
 });
 
 	CHAKRA.nav();
